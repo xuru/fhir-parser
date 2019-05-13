@@ -6,7 +6,7 @@
 classmap = {
     'Any': 'Resource',
     'Practitioner.role': 'PractRole',   # to avoid Practinioner.role and PractitionerRole generating the same class
-    
+
     'boolean': 'bool',
     'integer': 'int',
     'positiveInt': 'int',
@@ -16,7 +16,7 @@ classmap = {
     'instant': 'FHIRDate',
     'time': 'FHIRDate',
     'decimal': 'float',
-    
+
     'string': 'str',
     'markdown': 'str',
     'id': 'str',
@@ -44,7 +44,6 @@ jsonmap = {
     'int': 'int',
     'bool': 'bool',
     'float': 'float',
-    
     'FHIRDate': 'str',
 }
 jsonmap_default = 'dict'
